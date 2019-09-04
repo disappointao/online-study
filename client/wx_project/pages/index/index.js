@@ -1,4 +1,4 @@
-let datas = require('../../datas/list-data.js');
+let datas = require('../../datas/detail-datas');
 Page({
   data: {
     datas:[],
@@ -6,25 +6,25 @@ Page({
     selectedIndex:0,
     slideViews: [
       {
-        imgUrl: "../../imgs/detail/00.png",
+        imgUrl: "../../images/detail/00.png",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../imgs/detail/00.png",
+        imgUrl: "../../images/detail/00.png",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../imgs/detail/00.png",
+        imgUrl: "../../images/detail/00.png",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../imgs/detail/00.png",
+        imgUrl: "../../images/detail/00.png",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
@@ -32,37 +32,37 @@ Page({
     ],
     magazines: [
       {
-        imgUrl: "../../imgs/detail/00.png",
+        imgUrl: "../../images/detail/00.png",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../imgs/detail/00.png",
+        imgUrl: "../../images/detail/00.png",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../imgs/detail/00.png",
+        imgUrl: "../../images/detail/00.png",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../imgs/detail/00.png",
+        imgUrl: "../../images/detail/00.png",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../imgs/detail/00.png",
+        imgUrl: "../../images/detail/00.png",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../imgs/detail/00.png",
+        imgUrl: "../../images/detail/00.png",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
