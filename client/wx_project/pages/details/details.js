@@ -1,5 +1,5 @@
 // pages/details/details.js
-let datas=require('../../datas/list-data.js');
+let datas=require('../../datas/detail-datas.js');
 Page({
 
   /**
