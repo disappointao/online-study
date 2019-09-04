@@ -1,15 +1,19 @@
 <!--pages/details/details.wxml-->
-<view>
-  <scroll-view style="height:{{height}}rpx" scroll-y="true">
-    <view class="module" wx:for="{{infor}}" wx:key="{{index}}">
-      <view class="title">
-        <view class="titleDot" style="background-color: {{item.color}}"></view>
-        <text class="titleText" style="color:{{item.color}}">{{item.title}}</text>
+<view class='wraper'>
+  <view class='main'>
+    <scroll-view class='main-scroll' scroll-y style="height: 100%">
+      <view class="module" wx:for="{{infor}}" wx:key="{{index}}">
+        <view class="title">
+          <view class="titleDot" style="background-color: {{item.color}}"></view>
+          <text class="titleText" style="color:{{item.color}}">{{item.title}}</text>
+        </view>
+        <view class="content">
+          <block wx:for="{{data.detailMsg[item.key]}}" wx:key="{{index}}">
+            <text class="contentText">{{item}}</text>
+          </block>
+        </view>
       </view>
-      <view class="content">
-        <view class="contentText" wx:for="{{item.msg}}" wx:key="{{index}}">{{item}}</view>
-      </view>
-    </view>
-  </scroll-view>
-  <view class="buy">购买</view>
+    </scroll-view>
+  </view>
+  <view class='footer'>购买</view>
 </view>

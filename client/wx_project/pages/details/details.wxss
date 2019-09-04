@@ -1,6 +1,30 @@
 /* pages/details/details.wxss */
+page{
+  width: 100%;
+  height:100%;
+}
+
+.wraper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:100%;
+}
+
+.main{
+  flex: 1;
+  position: relative;
+}
+
+.main-scroll{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
 .module{
-  margin: 20rpx;
+  margin: 20rpx 45rpx;
 }
 
 .title{
@@ -24,13 +48,15 @@
 
 .content{
   font-size: 24rpx;
+  margin-bottom: 30rpx;
+  color:#444;
 }
 
 .contentText{
   padding: 10rpx 0;
 }
 
-.buy{
+.footer{
   height: 100rpx;
   line-height: 100rpx;
   color: white;

@@ -1,15 +1,17 @@
 // pages/details/details.js
+let datas=require('../../datas/list-data.js');
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    height: 500,
+    data:[],
     infor: [
       {
         title: "INFORMATION·资讯",
         color: "#8C9441",
+        key:'information',
         msg: [
           "互动",
           "告别童年",
@@ -21,6 +23,7 @@ Page({
       {
         title: "PICTURE·图说天下",
         color: "#E9B813",
+        key:'picture',
         msg: [
           "插秧去",
           "上班去",
@@ -32,6 +35,7 @@ Page({
       {
         title: "COVER STORY·封面故事",
         color: "#AA801E",
+        key:'coverStory',
         msg: [
           "魔幻爬藤路",
           "捐款名校也要论资排辈",
@@ -43,6 +47,7 @@ Page({
       {
         title: "CURRENT AFFAIRS·时事",
         color: "#008AD2",
+        key:'currentAffairs',
         msg: [
           "特蕾莎·梅，英国最无能的政客？",
           "起底中科院研究生被杀案：老同学的千里谋害",
@@ -55,6 +60,7 @@ Page({
       {
         title: "business·财经",
         color: "#019BA3",
+        key:'business',
         msg: [
           "酒国危局",
           '乐视暂退市，26万股民还未"散场"',
@@ -65,6 +71,7 @@ Page({
       {
         title: "vission·视觉",
         color: "#20201E",
+        key:'vision',
         msg: [
           "幻梦空屋"
         ]
@@ -72,6 +79,7 @@ Page({
       {
         title: "enterainment·娱乐",
         color: "#E92D78",
+        key:'entertainment',
         msg: [
           "战斗吧！欧美新生代Diva们",
           '谁的故事里没有一首姚谦呢',
@@ -81,6 +89,7 @@ Page({
       {
         title: "culture·文化",
         color: "#938986",
+        key:'culture',
         msg: [
           "这个时代，我们为什么要学哲学",
           '卡洛斯，为什么是20世界的歌剧女神'
@@ -89,14 +98,16 @@ Page({
       {
         title: "extra·号外",
         color: "#010101",
+        key:'extra',
         msg: [
-          "美国堕胎之争，没那么简单",
-          '枪袭戴维·温格：推到第一张多米诺骨牌'
+          "这个时代，我们为什么要学哲学",
+          '卡洛斯，为什么是20世界的歌剧女神'
         ]
       },
       {
         title: "lifestyle·生活",
         color: "#93C01C",
+        key:'lifestyle',
         msg: [
           "IN生活",
           '新品',
@@ -108,6 +119,7 @@ Page({
       {
         title: "column·专栏",
         color: "#713C5A",
+        key:'column',
         msg: [
           "骤然变老的那一年",
           '罢课女孩'
@@ -116,6 +128,7 @@ Page({
       {
         title: "memory·老照片",
         color: "#9B9B9B",
+        key:'memory',
         msg: [
           "同年"
         ]
@@ -127,13 +140,8 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    let that = this;
-    wx.getSystemInfo({
-      success: function (res) {
-        let height = (750 / res.windowWidth) * res.windowHeight - 100;
-        that.setData({ height });
-        console.log(that.data.height);
-      },
+    this.setData({
+      data:datas.data[0]
     })
   }
 })
