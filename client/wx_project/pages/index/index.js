@@ -1,15 +1,7 @@
-//index.js
-//获取应用实例
-const app = getApp()
-
+let datas = require('../../datas/list-data.js');
 Page({
   data: {
-    height: 500,
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo'),
-
+    datas:[],
     isMgz:true,
     selectedIndex:0,
     slideViews: [
@@ -93,13 +85,8 @@ Page({
   },
 
   onLoad: function (options) {
-    let that = this;
-    wx.getSystemInfo({
-      success: function (res) {
-        let height = (750 / res.windowWidth) * res.windowHeight - 100;
-        that.setData({ height });
-        console.log(that.data.height);
-      },
+    this.setData({
+      datas: datas.data
     })
   }
 })
