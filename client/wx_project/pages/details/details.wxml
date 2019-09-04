@@ -1,0 +1,15 @@
+<!--pages/details/details.wxml-->
+<view>
+  <scroll-view style="height:{{height}}rpx" scroll-y="true">
+    <view class="module" wx:for="{{infor}}" wx:key="{{index}}">
+      <view class="title">
+        <view class="titleDot" style="background-color: {{item.color}}"></view>
+        <text class="titleText" style="color:{{item.color}}">{{item.title}}</text>
+      </view>
+      <view class="content">
+        <view class="contentText" wx:for="{{item.msg}}" wx:key="{{index}}">{{item}}</view>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="buy">购买</view>
+</view>

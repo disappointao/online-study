@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/details/details",
     "pages/logs/logs"
   ],
   "window": {
@@ -8,6 +9,32 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Vista看天下",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#B8B8B8",
+    "selectedColor": "#333333",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "imgs/icon/magazine.png",
+        "selectedIconPath": "imgs/icon/magazineSelected.png",
+        "text": "杂志"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "imgs/icon/bookcase.png",
+        "selectedIconPath": "imgs/icon/bookcaseSelected.png",
+        "text": "书架"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "imgs/icon/mine.png",
+        "selectedIconPath": "imgs/icon/mineSelected.png",
+        "text": "我的"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }

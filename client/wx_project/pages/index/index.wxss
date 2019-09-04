@@ -4,3 +4,174 @@
   flex-direction: column;
   align-items: center;
 }
+
+.topBarBox{
+  font-size: 32rpx;
+  margin: 20rpx 0 10rpx 0;
+  padding: 5rpx;
+  width: 250rpx;
+  height: 60rpx;
+  border: 1rpx solid #DBDBDB;
+  border-radius: 35rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topBarBox .selectItem{
+  width: 120rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  background-color: #CE0D20;
+  text-align: center;
+  line-height: 60rpx;
+  color: white;
+}
+
+.topBarBox .item{
+  width: 120rpx;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
+
+.body{
+}
+
+.container .sildeBox{
+  margin: 20rpx 0 0 0;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.sildeBox .slideView{
+  display: inline-block;
+  margin: 40rpx;
+}
+
+.icon{
+  width: 375rpx;
+  height: 475rpx;
+}
+
+.iconSelected{
+  width: 450rpx;
+}
+
+.inforBox{
+  margin: 20rpx 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inforBox .date{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.dateItem{
+  color: #2A2A2A;
+  margin: 5rpx 20rpx
+}
+
+.inforBox .purchase{
+  font-size: 24rpx;
+  color: #ACACAC;
+}
+
+.slideView .buyButton{
+  margin: 40rpx auto;
+  width: 250rpx;
+  height: 70rpx;
+  border-radius: 10rpx;
+  background-color: #CE0D20;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 70rpx;
+  color: white;
+}
+
+.magazineBox{
+  width: 100%;
+}
+
+.magazineBox .titleBox{
+  margin: 20rpx;
+  font-size: 34rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.titleBox .totleMgz{
+  color: red;
+  font-size: 26rpx;
+}
+
+.magazineBox .exhibitionBoard{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.magazineView{
+  margin: 20rpx;
+  width: 210rpx;
+  display: inline-block;
+}
+
+.magazineIcon{
+  width: 210rpx;
+  height: 300rpx;
+}
+
+.mgzDate{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20rpx;
+}
+
+.mgzPurchase{
+  font-size: 20rpx;
+  color: #ACACAC;
+}
+
+.mgzBuyButton{
+  margin: 20rpx auto;
+  width: 150rpx;
+  height: 60rpx;
+  border-radius: 10rpx;
+  background-color: #CE0D20;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 60rpx;
+  color: white;
+}
+
+.promotion{
+  padding: 20rpx;
+  width: 100%;
+  color: white;
+  font-size: 24rpx;
+  background-color: #D9BB72;
+}
+
+.promotion .content{
+  margin: 10rpx 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.subscribe{
+  display: inline-block;
+}
