@@ -55,4 +55,4 @@ let info = [
     key: 'memory'
   }
 ]
-module.exports = { info};
+module.exports = {info};
