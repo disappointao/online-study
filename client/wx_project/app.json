@@ -1,8 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/details/details",
-    "pages/logs/logs"
+    "pages/details/details"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -18,20 +17,20 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "images/icon/magazine.png",
-        "selectedIconPath": "images/icon/magazineSelected.png",
+        "iconPath": "/images/icon/magazine.png",
+        "selectedIconPath": "/images/icon/magazineSelected.png",
         "text": "杂志"
       },
       {
         "pagePath": "pages/index/index",
-        "iconPath": "images/icon/bookcase.png",
-        "selectedIconPath": "images/icon/bookcaseSelected.png",
+        "iconPath": "/images/icon/bookcase.png",
+        "selectedIconPath": "/images/icon/bookcaseSelected.png",
         "text": "书架"
       },
       {
         "pagePath": "pages/index/index",
-        "iconPath": "images/icon/mine.png",
-        "selectedIconPath": "images/icon/mineSelected.png",
+        "iconPath": "/images/icon/mine.png",
+        "selectedIconPath": "/images/icon/mineSelected.png",
         "text": "我的"
       }
     ]
