@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/library/library",
     "pages/details/details"
   ],
   "window": {
@@ -23,8 +24,8 @@
       },
       {
         "pagePath": "pages/index/index",
-        "iconPath": "/images/icon/bookcase.png",
-        "selectedIconPath": "/images/icon/bookcaseSelected.png",
+        "iconPath": "/images/icon/bookshelf.png",
+        "selectedIconPath": "/images/icon/bookshelfSelected.png",
         "text": "书架"
       },
       {
