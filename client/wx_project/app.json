@@ -1,8 +1,11 @@
 {
   "pages": [
+    
     "pages/index/index",
     "pages/library/library",
-    "pages/details/details"
+    "pages/details/details",
+    "pages/magazine/magazine"
+  
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,7 +26,7 @@
         "text": "杂志"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/library/library",
         "iconPath": "/images/icon/bookshelf.png",
         "selectedIconPath": "/images/icon/bookshelfSelected.png",
         "text": "书架"
