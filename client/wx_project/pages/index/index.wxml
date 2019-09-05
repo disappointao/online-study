@@ -39,7 +39,11 @@
         <view class="magazineView">
             <view class="magazineItem">
             <navigator url="/pages/details/details?id={{index}}">
-            <image class="magazineIcon" src="{{item.img}}"></image>
+            <image class="magazineIcon" src="{{item.img}}">
+              <view class="IconTextBox">
+                <text>点击预览</text>
+              </view>
+            </image>
             </navigator>
               
               <view class="mgzInforBox">

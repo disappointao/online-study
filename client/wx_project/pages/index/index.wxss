@@ -144,8 +144,22 @@ page{
 }
 
 .magazineIcon{
+  position: relative;
   width: 210rpx;
   height: 300rpx;
+}
+
+.IconTextBox{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 40rpx;
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+  line-height: 40rpx;
+  color: white;
+  font-size: 18rpx;
 }
 
 .mgzDate{
