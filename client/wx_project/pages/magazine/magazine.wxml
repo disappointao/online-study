@@ -1,2 +1,46 @@
 <!--pages/magazine/magazine.wxml-->
-<text>pages/magazine/magazine.wxml</text>
+<view class='wraper'>
+  <view class='header'>
+    <view class="timeNav">
+      <view class="seclected">2019</view>
+      <view>2018</view>
+      <view>2017</view>
+      <view>2016</view>
+      <view>2015</view>
+    </view>
+  </view>
+  <view class='main'>
+    <scroll-view class='main-scroll' scroll-y style="height: 100%">
+      <block wx:for='{{datas}}' wx:key='{{index}}'>
+        <view class="moudle">
+          <image class="img" src="{{item.img}}">
+            <view>点击预览</view>
+          </image>
+          <view class="des">
+            <view class='title'>
+              <text>{{item.date}}</text>
+              <text>总第{{item.issue}}期</text>
+            </view>
+            <view class="info">
+              <block wx:for='{{item.bref}}' wx:key='{{index}}'>
+                <text>· {{item}}</text>
+              </block>
+
+            </view>
+            <view class="bottom">
+              <text>已有{{item.purchased}}人购买</text>
+              <button>￥{{item.price}}购买</button>
+            </view>
+          </view>
+
+
+        </view>
+      </block>
+
+    </scroll-view>
+  </view>
+  <view class="promotion">
+    <text>年订阅套餐再加量,低至1.5折！！</text>
+    <image class="subscribe" src='/images/icon/subscribe.png'></image>
+  </view>
+</view>
