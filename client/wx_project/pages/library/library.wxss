@@ -1,1 +1,29 @@
 /* pages/library/library.wxss */
+
+.container{
+  margin: 0 auto;
+}
+
+.type-container{
+  width: 720rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.type{
+  padding: 30rpx 0rpx;
+}
+
+.line{
+  width: 100%;
+  height: 3rpx;
+  background: #DCDCDC;
+}
+
+.selected{
+  border-bottom: 4rpx solid #D6232B;
+  color: #D6232B
+}
+.noneseclect{
+  color: #414141;
+}

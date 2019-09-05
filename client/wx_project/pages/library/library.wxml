@@ -1,2 +1,9 @@
 <!--pages/library/library.wxml-->
-<text>pages/library/library.wxml</text>
+<view class="container">
+  <view class="type-container">
+    <view class="type"></view>
+    <view class="type" wx:for="{{types}}" class='{{selectNum==item.id?"selected":"nonSec"}}' bindtap='changeType' data-index="{{index}}">{{item.name}}</view>
+    <view class="type"></view>
+  </view>
+  <view class="line"></view>
+</view>
