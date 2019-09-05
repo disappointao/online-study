@@ -10,21 +10,23 @@
     <scroll-view class='main-scroll' scroll-y style="height: 100%">
       <view class='navScroll'>
         <scroll-view scroll-x="true">
-        <block wx:for='{{datas}}' wx:key='{{index}}'>
-         <view class="slideView">
-            <view class="slideItem">
-              <image class="iconSelected" src="{{item.img}}"></image>
-              <view class="inforBox">
-                <view class="date">
-                  <view class="dateItem">{{item.date}}</view>
-                  <view class="dateItem">总第{{item.issue}}期</view>
+          <block wx:for='{{datas}}' wx:key='{{index}}'>
+            <view class="slideView">
+              <view class="slideItem">
+                <navigator url='/pages/details/details?id={{index}}'>
+                  <image class="iconSelected" src="{{item.img}}"></image>
+                </navigator>
+                <view class="inforBox">
+                  <view class="date">
+                    <view class="dateItem">{{item.date}}</view>
+                    <view class="dateItem">总第{{item.issue}}期</view>
+                  </view>
+                  <view class="purchase">已有{{item.purchased}}人购买</view>
                 </view>
-                <view class="purchase">已有{{item.purchased}}人购买</view>
               </view>
+              <view class="buyButton">￥{{item.price}}购买</view>
             </view>
-            <view class="buyButton">￥{{item.price}}购买</view>
-          </view>
-        </block> 
+          </block>
         </scroll-view>
       </view>
       <view class="magazineBox">
@@ -33,19 +35,25 @@
           <view class="totleMgz">全部杂志></view>
         </view>
         <view class="exhibitionBoard">
-          <view class="magazineView" wx:for="{{magazines}}" wx:key="{{index}}">
+        <block wx:for="{{datas}}" wx:key="{{index}}">
+        <view class="magazineView">
             <view class="magazineItem">
-              <image class="magazineIcon" src="{{item.imgUrl}}"></image>
+            <navigator url="/pages/details/details?id={{index}}">
+            <image class="magazineIcon" src="{{item.img}}"></image>
+            </navigator>
+              
               <view class="mgzInforBox">
                 <view class="mgzDate">
                   <view class="mgzDateItem">{{item.date}}</view>
-                  <view class="mgzDateItem">{{item.publishNumber}}</view>
+                  <view class="mgzDateItem">{{item.issue}}</view>
                 </view>
-                <view class="mgzPurchase">已有16430人购买</view>
+                <view class="mgzPurchase">已有{{item.purchased}}人购买</view>
               </view>
             </view>
             <view class="mgzBuyButton">购买</view>
           </view>
+        </block>
+          
         </view>
       </view>
 

@@ -6,25 +6,25 @@ Page({
     selectedIndex:0,
     slideViews: [
       {
-        imgUrl: "../../images/detail/00.png",
+        imgUrl: "../../images/detail/00.jpg",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../images/detail/00.png",
+        imgUrl: "../../images/detail/00.jpg",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../images/detail/00.png",
+        imgUrl: "../../images/detail/00.jpg",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../images/detail/00.png",
+        imgUrl: "../../images/detail/00.jpg",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
@@ -32,37 +32,37 @@ Page({
     ],
     magazines: [
       {
-        imgUrl: "../../images/detail/00.png",
+        imgUrl: "../../images/detail/00.jpg",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../images/detail/00.png",
+        imgUrl: "../../images/detail/00.jpg",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../images/detail/00.png",
+        imgUrl: "../../images/detail/00.jpg",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../images/detail/00.png",
+        imgUrl: "../../images/detail/00.jpg",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../images/detail/00.png",
+        imgUrl: "../../images/detail/00.jpg",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
       },
       {
-        imgUrl: "../../images/detail/00.png",
+        imgUrl: "../../images/detail/00.jpg",
         date: "2019.08.08",
         publishNumber: "总第461期",
         price: "6.00"
