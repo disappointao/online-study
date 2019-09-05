@@ -2,7 +2,7 @@
 <view class='wraper'>
   <view class='main'>
     <scroll-view class='main-scroll' scroll-y style="height: 100%">
-      <view class="module" wx:for="{{infor}}" wx:key="{{index}}">
+      <view class="module" wx:for="{{info}}" wx:key="{{index}}">
         <view class="title">
           <view class="titleDot" style="background-color: {{item.color}}"></view>
           <text class="titleText" style="color:{{item.color}}">{{item.title}}</text>
