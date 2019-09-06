@@ -14,7 +14,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.8.1",
-	"appid": "wx5291cddde348a608",
+	"appid": "touristappid",
 	"projectname": "wx_project",
 	"debugOptions": {
 		"hidedInDevtools": []

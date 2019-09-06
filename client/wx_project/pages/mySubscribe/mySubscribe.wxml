@@ -1,0 +1,28 @@
+<view class="user_top">
+  <image class="img" src="../../imgs/detail/00.png"></image>
+  <view class="user_information">
+    <view>
+      <view>userName</view>
+      <view>当前未订阅</view>
+    </view>
+  </view>
+  <view class="none"></view>
+</view>
+<image class="bigImg" src="../../imgs/bigImg.jpg"></image>
+<view class="VIP">
+  <text>选择类型</text>
+  <block wx:for='{{datas}}' wx:key='{{index}}'>
+    <view class="cell">
+      <view class="sTitle">{{item.name}}</view>
+      <view class="sText">{{item.introduce}}</view>
+    </view>
+  </block>
+</view>
+<view class="buttom">特别说明</view>
+<view class="information">
+  <text>购买须知</text>
+
+  <block wx:for='{{info}}' wx:key='{{index}}'>
+    <view class="information_son">{{index+1}}{{item.info}}</view>
+  </block>
+</view>

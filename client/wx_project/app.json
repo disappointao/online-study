@@ -1,11 +1,12 @@
 {
   "pages": [
-    
+    "pages/mine/mine",
+    "pages/mySubscribe/mySubscribe",
+    "pages/seeHistory/seeHistory",
     "pages/index/index",
-    "pages/library/library",
+    "pages/magazine/magazine",
     "pages/details/details",
-    "pages/magazine/magazine"
-  
+    "pages/library/library"
   ],
   "window": {
     "backgroundTextStyle": "light",

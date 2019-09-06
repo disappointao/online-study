@@ -1,0 +1,62 @@
+/* pages/mine/mine.wxss */
+page{
+  background: rgba(100, 100, 100, 0.2)
+}
+.user {
+  height: 400rpx;
+  width: 100%;
+  background: rgba(100, 100, 100, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user>view {
+  text-align: center;
+}
+
+.user>view view {
+  margin: 10rpx 0;
+}
+
+.img {
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50rpx;
+}
+
+.icon {
+  height: 30rpx;
+  width: 30rpx;
+}
+
+.cell {
+  height: 80rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.line {
+  margin: 2rpx auto;
+  height: 2rpx;
+  width: 100%;
+  background: rgba(100, 100, 100, 0.5);
+}
+
+.text {
+  width: 95%;
+  background: white;
+  /* border: 1rpx solid; */
+  border-radius: 10rpx;
+  box-shadow: 0rpx -50rpx 20rpx -20rpx grey;
+  margin: 0 auto;
+  padding: 20rpx;
+  box-sizing: border-box;
+  position: relative;
+  top: -20rpx;
+}
+
+.none {
+  width: 400rpx;
+}

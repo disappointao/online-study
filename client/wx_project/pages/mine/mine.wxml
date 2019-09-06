@@ -1,0 +1,24 @@
+<!--pages/mine/mine.wxml-->
+<view class="user">
+  <view>
+    <image class="img" src="../../imgs/bigImg.jpg"></image>
+    <view>userName</view>
+    <view>userId</view>
+  </view>
+</view>
+<view class="text">
+  <view class="cell">
+    <image class="icon" src="../../images/icon/time.png"></image>
+    <text>订阅有效期</text>
+    <view class="none"></view>
+    <image class="icon" src="../../images/icon/sanjiao.png"></image>
+  </view>
+  <view class="line"></view>
+  <view class="cell">
+    <image class="icon" src="../../images/icon/see.png"></image>
+    <text>阅读记录</text>
+    <view class="none"></view>
+    <image class="icon" src="../../images/icon/sanjiao.png"></image>
+  </view>
+
+</view>

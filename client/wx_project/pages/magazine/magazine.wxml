@@ -9,7 +9,7 @@
       <view>2015</view>
     </view>
   </view>
-  <view class='main'>
+  <view class='main'> 
     <scroll-view class='main-scroll' scroll-y style="height: 100%">
       <block wx:for='{{datas}}' wx:key='{{index}}'>
         <view class="moudle">

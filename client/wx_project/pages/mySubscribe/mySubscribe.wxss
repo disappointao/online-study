@@ -1,0 +1,81 @@
+/* pages/mySubscribe/mySubscribe.wxss */
+
+.user_top {
+  height: 200rpx;
+  background: -webkit-linear-gradient(left,  rgba(100, 100, 100, 1),rgba(0, 0, 0, 1), rgba(100, 100, 100, 1));
+  display: flex;
+  justify-content: space-around;
+}
+
+.img {
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50rpx;
+  position: relative;
+  top: 50%; /*偏移*/
+  margin-top: -50rpx;
+}
+
+.user_information>view {
+  height: 100rpx;
+  position: relative;
+  top: 50%; /*偏移*/
+  margin-top: -50rpx;
+}
+
+.user_information view view:first-of-type {
+  color: white;
+  font-size: 40rpx;
+}
+
+.user_information view view:last-of-type {
+  margin-top: 10rpx;
+  color: rgba(150, 150, 150, 1);
+  font-size: 20rpx;
+}
+
+.none {
+  width: 350rpx;
+}
+.bigImg{
+  width: 100%
+}
+.VIP>text{
+  font-size: 35rpx;
+  padding-left: 20rpx;
+}
+.cell{
+  border: 1rpx solid rgba(150, 150, 150, 1) ;
+  margin: 20rpx;
+  border-radius: 15rpx;
+  padding: 20rpx;
+}
+.cell .sTitle{
+  color: rgba(100, 100, 100, 1);
+  font-size: 33rpx;
+  margin-bottom: 10rpx;
+
+}
+.cell .sText{
+  font-size: 28rpx;
+}
+.buttom{
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 95%;
+  margin: 40rpx auto;
+  background: #D70000;
+  color: white;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.information>text{
+  font-size: 35rpx;
+  padding-left: 20rpx;
+}
+.information_son{
+  margin: 20rpx;
+  font-size: 32rpx;
+  color: rgba(150, 150, 150, 1);
+}

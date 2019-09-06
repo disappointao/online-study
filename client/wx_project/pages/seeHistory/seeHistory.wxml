@@ -1,0 +1,11 @@
+<!--pages/seeHistory/seeHistory.wxml-->
+<view class="title">
+  <view class="redLine"></view>
+  <view class="text">一周内</view>
+</view>
+    <block wx:for='{{datas}}' wx:key='{{index}}'>
+      <view class="cell">
+        <view class="sTitle">{{item.title}}</view>
+        <view class="sText">{{item.text}}</view>
+      </view>
+    </block>

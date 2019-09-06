@@ -4,7 +4,7 @@ let data = [
     img: '/images/detail/00.jpg',
     date:'2019,08,08',
     issue:461,
-    purchased:16430,
+    purchased:16430, 
     price:6,
     detailMsg:
     {
