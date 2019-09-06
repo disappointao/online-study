@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/mine/mine",
     "pages/mySubscribe/mySubscribe",
     "pages/seeHistory/seeHistory",
-    "pages/index/index",
     "pages/magazine/magazine",
     "pages/details/details",
     "pages/library/library"
@@ -33,7 +33,7 @@
         "text": "书架"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/mine/mine",
         "iconPath": "/images/icon/mine.png",
         "selectedIconPath": "/images/icon/mineSelected.png",
         "text": "我的"
