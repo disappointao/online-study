@@ -49,16 +49,35 @@
   margin: 20rpx;
   border-radius: 15rpx;
   padding: 20rpx;
+  color: rgba(100, 100, 100, 1);
 }
 .cell .sTitle{
-  color: rgba(100, 100, 100, 1);
   font-size: 33rpx;
   margin-bottom: 10rpx;
 
 }
 .cell .sText{
+  color: rgba(0, 0, 0, 1);
   font-size: 28rpx;
 }
+
+.is_checked{
+ border: 1rpx solid #D58D96 ;
+  margin: 20rpx;
+  border-radius: 15rpx;
+  padding: 20rpx;
+  color: #C77578;
+  background: #FAECEB;
+}
+.is_checked .sText{
+  color: rgba(0, 0, 0, 1);
+  font-size: 28rpx;
+}
+.is_checked .sTitle{
+    font-size: 33rpx;
+  margin-bottom: 10rpx;
+}
+
 .buttom{
   height: 80rpx;
   line-height: 80rpx;

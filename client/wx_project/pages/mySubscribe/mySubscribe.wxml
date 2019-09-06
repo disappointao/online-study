@@ -11,12 +11,18 @@
 <image class="bigImg" src="../../imgs/bigImg.jpg"></image>
 <view class="VIP">
   <text>选择类型</text>
-  <block wx:for='{{datas}}' wx:key='{{index}}'>
-    <view class="cell">
+  <!-- <block wx:for='{{datas}}' wx:key='{{index}}' bindtap="checked">
+    <view class="{{item.checked?'is_checked':'cell'}}" >
       <view class="sTitle">{{item.name}}</view>
       <view class="sText">{{item.introduce}}</view>
     </view>
-  </block>
+  </block> -->
+ 
+    <view  wx:for='{{datas}}' wx:key='{{index}}' bindtap="checked" wx:for-index="index" data-index="{{index}}" class="{{item.checked?'is_checked':'cell'}}">
+      <view class="sTitle">{{item.name}}</view>
+      <view class="sText">{{item.introduce}}</view>
+    </view>
+
 </view>
 <view class="buttom">特别说明</view>
 <view class="information">
