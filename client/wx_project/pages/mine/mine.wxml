@@ -7,12 +7,16 @@
   </view>
 </view>
 <view class="text">
+<navigator url='/pages/mySubscribe/mySubscribe'>
   <view class="cell">
     <image class="icon" src="../../images/icon/time.png"></image>
     <text>订阅有效期</text>
     <view class="none"></view>
     <image class="icon" src="../../images/icon/sanjiao.png"></image>
   </view>
+</navigator>
+<navigator url='/pages/seeHistory/seeHistory'>
+</navigator>
   <view class="line"></view>
   <view class="cell">
     <image class="icon" src="../../images/icon/see.png"></image>
