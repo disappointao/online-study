@@ -1,10 +1,10 @@
 const express=require('express');
+let router=express.Router();
 let localhost='http://localhost:5000/public';
 const {data}=require('./datas/detail-datas');
 data.forEach((value,key)=>{
   value.img=localhost+value.img
 });
-let router=express.Router();
 router.get('/',(req,res)=>{
   //处理数据中img地址的路径
   res.json(data);
